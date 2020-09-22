@@ -11,7 +11,7 @@ To Run:
 docker run --rm --name health_check -d -e URL="http(s)://URL" shapsough/healthcheck:latest
 
 - You Must Set the URL Environment Variable Or The Container Will Exit
-- You Can Mount A Volume On "/health_check_logs" To Persist The Data Or Push It Someplace Else.
+- You Can Mount A Volume On "/health_check_logs" To Persist The Data And/Or Push It Someplace Else.
 ```
 
 ```
